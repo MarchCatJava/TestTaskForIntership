@@ -53,7 +53,7 @@
 <br/>
 <br/>
 
-<h1>Book List</h1>
+<h2>Book List</h2>
 
 <c:if test="${!empty listBooks}">
     <table class="tg">
@@ -122,7 +122,7 @@
 
 
 
-<h1>Add a Book</h1>
+<h2>Add a Book</h2>
 
 <c:url var="addAction" value="/books/add"/>
 
